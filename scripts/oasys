@@ -1,0 +1,28 @@
+#!/bin/bash
+arg=$1
+arg_arg=$2
+if [[ $arg = "install" ]] then
+  wget https://luismagaiver341.github.io/Oasys/src/"$(echo $arg_arg)".tar.gz
+  sudo mkdir /oasys/"$(echo $arg_arg)"
+  sudo tar xfzv "$(echo $arg_arg)".tar.gz -C /oasys/"$(echo $arg_arg)"
+fi
+
+
+
+# Verifica se o comando foi executado com sudo
+if [ "$(whoami)" != "root" ]; then
+  # O comando não foi executado com sudo
+  echo "Must be superuser"
+  exit 1
+fi
+
+# Especifica o caminho para o rootfs do Ubuntu
+
+# Inicia o container do proot
+#proot -l -r $UBUNTU_ROOTFS /bin/bash
+
+# Prepara as variáveis de ambiente do Ubuntu
+#export PATH=$UBUNTU_ROOTFS/usr/bin:$PATH
+
+# Roda o neofetch
+#neofetch
