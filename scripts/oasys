@@ -4,7 +4,7 @@ arg_arg=$2
 if [[ $arg = "install" ]] then
   wget https://luismagaiver341.github.io/Oasys/src/"$(echo $arg_arg)".tar.gz
   sudo mkdir /oasys/"$(echo $arg_arg)"
-  sudo tar xfzv "$(echo $arg_arg)".tar.gz -C /oasys/"$(echo $arg_arg)"
+  sudo tar xfzv "$(echo $arg_arg)".tar.gz -C /oasys/
 fi
 
 
