@@ -94,3 +94,42 @@ body {
     padding: 0px;
     position: absolute;
 }
+#intro {
+    border-radius: 10px;
+    top: 350px;
+    left: 1vw;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 48vw;
+    height: 300px;
+    background-color: rgb(29, 29, 29);
+}#subintro {
+    border-radius: 10px;
+    top: 350px;
+    left: 25vw;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 24vw;
+    height: 300px;
+    background-color: rgb(19, 19, 19);
+}
+#Yo {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+#gs {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+    left: 20px;
+    position: absolute;
+    top: 50px;
+}
