@@ -78,9 +78,18 @@ body {
 }
 #Cmd {
     font-family: 'Source Code Pro', sans-serif;
+    color: rgb(73, 192, 83);
+    left: 13px;
+    top: 27%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+#Cmd2 {
+    font-family: 'Source Code Pro', sans-serif;
     color: rgb(255, 255, 255);
-    left: 10px;
-    top: 30%;
+    left: 230px;
+    top: 27%;
     margin: 0px;
     padding: 0px;
     position: absolute;
