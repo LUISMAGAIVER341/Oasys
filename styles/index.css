@@ -1,0 +1,63 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
+
+body {
+    background-color: rgb(30, 34, 43);
+    margin: 0px;
+    padding: 0px;
+}
+#Spz {
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 50px;
+}#Spz2 {
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    width: 100vw;
+    height: 20px;
+}
+#title {
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* width: 108px;
+    align-self: center; */
+    /* position: absolute;  */
+    text-align: center;
+    
+    
+}
+.slog {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+}
+#dumb {
+    border-radius: 5px;
+    top: 132px;
+    margin: 0px;
+    padding: 0px;
+    width: 71px;
+    height: 28px;
+    left: 525px;
+    position: absolute;
+    background-color: rgba(255, 255, 76, 0.918);
+}
+#Dumby {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+    left: 2px;
+    position: absolute;
+    top: 0px;
+}

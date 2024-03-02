@@ -3,11 +3,12 @@ arg=$1
 arg_arg=$2
 arg_arg_arg=$3
 arg_arg_arg_arg=$4
-dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).tar.gz"
+dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).app"
 if [[ $arg = "install" ]] then
   cd /oasys/tmp
   wget "$(echo $dTok)"
   sudo tar -xvzf "$(echo $arg_arg_arg)".app
+  sudo rm "$(echo $arg_arg_arg)".app
   cd "$(echo $arg_arg_arg)"
   sudo chmod u+x ./install.sh
   sudo ./install.sh
