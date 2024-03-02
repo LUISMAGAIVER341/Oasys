@@ -3,11 +3,13 @@ arg=$1
 arg_arg=$2
 arg_arg_arg=$3
 arg_arg_arg_arg=$4
+dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).tar.gz"
 if [[ $arg = "install" ]] then
   cd /oasys/tmp
-  wget "$(echo /oasys/repos/$(echo $arg_arg))"/"$(echo $arg_arg_arg)".tar.gz
-    
-  fi
+  wget "$(echo $dTok)"
+  sudo tar -xzf "$(echo $arg_arg_arg)".app
+  cd "$(echo $arg_arg_arg)"
+fi
 if [[ $arg = "run" ]] then
   echo Just chill, because "$(echo $arg_arg)" is starting!
   /oasys/"$(echo $arg_arg)"
