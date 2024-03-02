@@ -7,8 +7,11 @@ dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).tar.gz"
 if [[ $arg = "install" ]] then
   cd /oasys/tmp
   wget "$(echo $dTok)"
-  sudo tar -xzf "$(echo $arg_arg_arg)".app
+  sudo tar -xvzf "$(echo $arg_arg_arg)".app
   cd "$(echo $arg_arg_arg)"
+  sudo chmod u+x ./install.sh
+  sudo ./install.sh
+
 fi
 if [[ $arg = "run" ]] then
   echo Just chill, because "$(echo $arg_arg)" is starting!
