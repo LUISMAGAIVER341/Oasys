@@ -48,7 +48,7 @@ body {
     padding: 0px;
     width: 71px;
     height: 28px;
-    left: 525px;
+    left: 41vw;
     position: absolute;
     background-color: rgba(255, 255, 76, 0.918);
 }
@@ -75,4 +75,13 @@ body {
     /* left: 55vh; */
     top: 230px;
 
+}
+#Cmd {
+    font-family: 'Source Code Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    left: 10px;
+    top: 30%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
 }
