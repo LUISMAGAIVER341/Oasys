@@ -6,6 +6,8 @@ cd Oasys
 sudo cp scripts/oasys /bin/
 sudo mkdir /run/wrappers/bin
 sudo cp scripts/oasys /run/wrappers/bin
+sudo mkdir /run/current-system/sw/bin
+sudo cp scripts/oasys /run/current-system/sw/bin
 cd ..
 sudo rm -r "Oasys"
 sudo mkdir /oasys
