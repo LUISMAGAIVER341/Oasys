@@ -14,7 +14,7 @@ sudo mkdir /oasys
 sudo mkdir /oasys/tmp
 sudo mkdir /oasys/repos
 cd /oasys/repos
-touch ofc
+sudo touch ofc
 sudo echo https://luismagaiver341.github.io/Oasys/repo >> ofc
 echo "Oasys is now installed!"
 xdg-open https://luismagaiver341.github.io/Oasys/
