@@ -16,7 +16,7 @@ sudo mkdir /oasys/repos
 cd /oasys/repos
 sudo touch ofc
 chmod 733 script.sh
-sudo echo https://luismagaiver341.github.io/Oasys/repo >> ofc
+sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
 echo "Oasys is now installed!"
 xdg-open https://luismagaiver341.github.io/Oasys/
 
