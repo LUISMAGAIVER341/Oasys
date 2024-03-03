@@ -9,14 +9,13 @@ sudo cp scripts/oasys /run/wrappers/bin
 sudo mkdir /run/current-system/sw/bin
 sudo cp scripts/oasys /run/current-system/sw/bin
 cd ..
-sudo rm -r "Oasys"
 sudo mkdir /oasys
 sudo mkdir /oasys/tmp
 sudo mkdir /oasys/repos
-cd /oasys/repos
-sudo touch ofc
+sudo cp ofc /oasys/repos
 chmod 733 ofc
-sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
+sudo rm -r "Oasys"
+# sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
 echo "Oasys is now installed!"
 xdg-open https://luismagaiver341.github.io/Oasys/
 
