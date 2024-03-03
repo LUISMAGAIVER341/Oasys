@@ -8,11 +8,12 @@ sudo mkdir /run/wrappers/bin
 sudo cp scripts/oasys /run/wrappers/bin
 sudo mkdir /run/current-system/sw/bin
 sudo cp scripts/oasys /run/current-system/sw/bin
-cd ..
 sudo mkdir /oasys
 sudo mkdir /oasys/tmp
 sudo mkdir /oasys/repos
 sudo cp ofc /oasys/repos
+cd ..
+cd /oasys/repos
 chmod 733 ofc
 sudo rm -r "Oasys"
 # sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
