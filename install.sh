@@ -13,10 +13,11 @@ sudo mkdir /oasys/tmp
 sudo mkdir /oasys/repos
 sudo cp ofc /oasys/repos
 cd ..
+sudo rm -r "Oasys"
 cd /oasys/repos
 chmod 733 ofc
-sudo rm -r "Oasys"
 # sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
+clear
 echo "Oasys is now installed!"
 xdg-open https://luismagaiver341.github.io/Oasys/
 
