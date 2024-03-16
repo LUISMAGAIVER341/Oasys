@@ -18,6 +18,10 @@ cd /oasys/repos
 chmod 733 ofc
 # sudo echo "https://luismagaiver341.github.io/Oasys/repo" >> ofc
 clear
+cd ~
+touch ./exports.sh
+sudo chmod u+x ./exports.sh
+echo ./exports.sh >> ~/.zshrc
 echo "Oasys is now installed!"
 xdg-open https://luismagaiver341.github.io/Oasys/
 
