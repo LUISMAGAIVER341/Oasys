@@ -1,3 +1,4 @@
+#version 0.0.3a
 
 arg=$1
 arg_arg=$2
@@ -15,6 +16,13 @@ if [[ $arg = "install" ]] then
   sudo ./install.sh
 
 fi
+
+if [[ $arg = "start" ]] then
+  echo Adding /oasys/bin to PATH
+  export PATH=/oasys/bin:$PATH
+  echo Wanna try any command?
+fi
+
 if [[ $arg = "run" ]] then
   echo Just chill, because "$(echo $arg_arg)" is starting!
   /oasys/"$(echo $arg_arg)"
@@ -26,13 +34,3 @@ if [ "$(whoami)" != "root" ]; then
   exit 1
 fi
 
-# Especifica o caminho para o rootfs do Ubuntu
-
-# Inicia o container do proot
-#proot -l -r $UBUNTU_ROOTFS /bin/bash
-
-# Prepara as variáveis de ambiente do Ubuntu
-#export PATH=$UBUNTU_ROOTFS/usr/bin:$PATH
-
-# Roda o neofetch
-#neofetch
