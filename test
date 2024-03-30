@@ -1,5 +1,4 @@
 #!/bin/bash
-
 command="proot"
 command+=" --kill-on-exit"
 command+=" --link2symlink"

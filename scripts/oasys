@@ -1,4 +1,4 @@
-
+#!/bin/bash
 arg=$1
 arg_arg=$2
 arg_arg_arg=$3
