@@ -19,7 +19,7 @@ fi
 
 if [[ $arg = "start" ]] then
   echo Adding /oasys/bin to PATH
-  $PATH=$PATH:/oasys/bin:
+  PATH=$PATH:/oasys/bin:
   echo Wanna try any command?
 fi
 
