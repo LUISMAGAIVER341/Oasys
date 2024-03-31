@@ -1,0 +1,25 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: rgb(30, 34, 43);
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(5, 5, 7);
+}
+#h {
+    transform: translateY(5px);
+    text-align: center;
+    font-family: 'Google Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}

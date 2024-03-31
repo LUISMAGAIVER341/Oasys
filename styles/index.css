@@ -144,3 +144,15 @@ body {
     width: 23vw;
     height: 22vw;
 }
+#doc {
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Google Sans', sans-serif;
+    color: rgb(73, 192, 83);
+    top: 450px;
+    left: 60vw;
+}
