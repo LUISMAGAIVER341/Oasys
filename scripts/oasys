@@ -17,10 +17,10 @@ if [[ $arg = "install" ]] then
 
 fi
 
-if [[ $arg = "start" ]] then
-  echo Adding /oasys/bin to PATH
-  PATH=$PATH:/oasys/bin:
-  echo Wanna try any command?
+if [[ $arg = "start" ]]; then
+  echo "Adding /oasys/bin to PATH"
+  PATH=$PATH:/oasys/bin
+  echo "Wanna try any command?"
 fi
 
 if [[ $arg = "run" ]] then
