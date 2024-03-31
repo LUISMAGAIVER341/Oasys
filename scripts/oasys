@@ -1,4 +1,4 @@
-#version 0.0.3a
+#version 0.0.4a
 
 arg=$1
 arg_arg=$2
@@ -17,11 +17,6 @@ if [[ $arg = "install" ]] then
 
 fi
 
-if [[ $arg = "start" ]]; then
-  echo "Adding /oasys/bin to PATH"
-  source /oasys/tmp/start
-  echo "Wanna try any command?"
-fi
 
 if [[ $arg = "run" ]] then
   echo Just chill, because "$(echo $arg_arg)" is starting!

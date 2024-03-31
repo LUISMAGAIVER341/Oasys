@@ -1,4 +1,4 @@
-#version 0.0.2a
+#version 0.0.4a
 
 cd ~
 git clone https://github.com/LUISMAGAIVER341/Oasys.git
