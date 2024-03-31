@@ -19,8 +19,7 @@ fi
 
 if [[ $arg = "start" ]]; then
   echo "Adding /oasys/bin to PATH"
-  export PATH=$PATH:/oasys/bin
-  PATH=$PATH:/oasys/bin
+  source /oasys/tmp/start
   echo "Wanna try any command?"
 fi
 

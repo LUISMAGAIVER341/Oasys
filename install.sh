@@ -14,6 +14,7 @@ sudo mkdir /oasys
 sudo mkdir /oasys/tmp
 sudo mkdir /oasys/repos
 sudo mkdir /oasys/bin
+sudo cp start /oasys/tmp
 sudo cp ofc /oasys/repos
 cd ..
 sudo rm -r "Oasys"
