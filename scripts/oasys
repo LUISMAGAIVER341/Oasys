@@ -1,11 +1,11 @@
-#version 0.0.4a
+#version 0.0.5a (pancake)
 
 arg=$1
 arg_arg=$2
 arg_arg_arg=$3
 arg_arg_arg_arg=$4
 
-if [[ $arg = "install" ]] then
+if [ $arg = "install" ]; then
   dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).app"
   cd /oasys/tmp
   wget "$(echo $dTok)"
@@ -18,13 +18,13 @@ if [[ $arg = "install" ]] then
 fi
 
 
-if [[ $arg = "run" ]] then
+if [ $arg = "run" ]; then
   echo Just chill, because "$(echo $arg_arg)" is starting!
   /oasys/"$(echo $arg_arg)"
 fi
-# Verifica se o comando foi executado com sudo
+
 if [ "$(whoami)" != "root" ]; then
-  # O comando não foi executado com sudo
+  
   echo "Must be superuser"
   exit 1
 fi

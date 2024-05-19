@@ -1,4 +1,4 @@
-#version 0.0.4a
+#version 0.0.5a (pancake)
 
 cd ~
 git clone https://github.com/LUISMAGAIVER341/Oasys.git
