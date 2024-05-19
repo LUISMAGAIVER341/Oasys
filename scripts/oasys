@@ -5,7 +5,7 @@ arg_arg=$2
 arg_arg_arg=$3
 arg_arg_arg_arg=$4
 
-if [[ $arg == "install" ]] then
+if [[ $arg == "install" ]]; then
   dTok="$(cat /oasys/repos/$(echo $arg_arg))/$(echo $arg_arg_arg).app"
   cd /oasys/tmp
   wget "$(echo $dTok)"
