@@ -12,7 +12,6 @@ if [[ $arg = "install" ]]; then
   sudo tar -xvzf "$(echo $arg_arg_arg)".app
   sudo rm "$(echo $arg_arg_arg)".app
   cd "$(echo $arg_arg_arg)"
-  sudo chmod u+x ./install.sh
   sudo ./install.sh
 
 fi
